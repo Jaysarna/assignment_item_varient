@@ -1,7 +1,3 @@
-## practice
+Please check 
 
-for practice
-
-#### License
-
-MIT
+item.js and item_varient.py
