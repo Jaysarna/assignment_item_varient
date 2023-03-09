@@ -7,6 +7,33 @@ app_description = "for practice"
 app_email = "jay.sarna@akhilaminc.com"
 app_license = "MIT"
 
+
+fixtures = [
+    {"dt": "Custom Field", "filters": [
+        [
+            "name", "in", [
+                "Item-yield",
+                "Item-height",
+                "Item-width",
+                "Item-length",
+                "UOM Conversion Detail-formula"
+            ]
+        ],
+    ]},
+    {"dt": "Item Attribute", "filters": [
+
+        [
+            "name", "in", [
+                "Yield",
+                "Height",
+                "Width"
+            ]
+        ]
+    ]
+
+    }
+
+]
 # Includes in <head>
 # ------------------
 
@@ -34,10 +61,10 @@ app_license = "MIT"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 doctype_js = {
-	"Item": "custom_script/item.js",
-	}
+    "Item": "custom_script/item.js",
+}
 
-# Home Pages 
+# Home Pages
 # ----------
 
 # application home page (will override Website Settings)
@@ -45,7 +72,7 @@ doctype_js = {
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# "Role": "home_page"
 # }
 
 # Generators
@@ -59,8 +86,8 @@ doctype_js = {
 
 # add methods and filters to jinja environment
 # jinja = {
-#	"methods": "practice.utils.jinja_methods",
-#	"filters": "practice.utils.jinja_filters"
+# "methods": "practice.utils.jinja_methods",
+# "filters": "practice.utils.jinja_filters"
 # }
 
 # Installation
@@ -86,11 +113,11 @@ doctype_js = {
 # Permissions evaluated in scripted ways
 
 # permission_query_conditions = {
-#	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+# "Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
 # has_permission = {
-#	"Event": "frappe.desk.doctype.event.event.has_permission",
+# "Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
 # DocType Class
@@ -98,7 +125,7 @@ doctype_js = {
 # Override standard doctype classes
 
 # override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
+# "ToDo": "custom_app.overrides.CustomToDo"
 # }
 
 # Document Events
@@ -106,32 +133,32 @@ doctype_js = {
 # Hook on document methods and events
 
 # doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
+# "*": {
+# "on_update": "method",
+# "on_cancel": "method",
+# "on_trash": "method"
+# }
 # }
 
 # Scheduled Tasks
 # ---------------
 
 # scheduler_events = {
-#	"all": [
-#		"practice.tasks.all"
-#	],
-#	"daily": [
-#		"practice.tasks.daily"
-#	],
-#	"hourly": [
-#		"practice.tasks.hourly"
-#	],
-#	"weekly": [
-#		"practice.tasks.weekly"
-#	],
-#	"monthly": [
-#		"practice.tasks.monthly"
-#	],
+# "all": [
+# "practice.tasks.all"
+# ],
+# "daily": [
+# "practice.tasks.daily"
+# ],
+# "hourly": [
+# "practice.tasks.hourly"
+# ],
+# "weekly": [
+# "practice.tasks.weekly"
+# ],
+# "monthly": [
+# "practice.tasks.monthly"
+# ],
 # }
 
 # Testing
@@ -143,14 +170,14 @@ doctype_js = {
 # ------------------------------
 #
 # override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "practice.event.get_events"
+# "frappe.desk.doctype.event.event.get_events": "practice.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-#	"Task": "practice.task.get_dashboard_data"
+# "Task": "practice.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -167,29 +194,29 @@ doctype_js = {
 # --------------------
 
 # user_data_fields = [
-#	{
-#		"doctype": "{doctype_1}",
-#		"filter_by": "{filter_by}",
-#		"redact_fields": ["{field_1}", "{field_2}"],
-#		"partial": 1,
-#	},
-#	{
-#		"doctype": "{doctype_2}",
-#		"filter_by": "{filter_by}",
-#		"partial": 1,
-#	},
-#	{
-#		"doctype": "{doctype_3}",
-#		"strict": False,
-#	},
-#	{
-#		"doctype": "{doctype_4}"
-#	}
+# {
+# "doctype": "{doctype_1}",
+# "filter_by": "{filter_by}",
+# "redact_fields": ["{field_1}", "{field_2}"],
+# "partial": 1,
+# },
+# {
+# "doctype": "{doctype_2}",
+# "filter_by": "{filter_by}",
+# "partial": 1,
+# },
+# {
+# "doctype": "{doctype_3}",
+# "strict": False,
+# },
+# {
+# "doctype": "{doctype_4}"
+# }
 # ]
 
 # Authentication and authorization
 # --------------------------------
 
 # auth_hooks = [
-#	"practice.auth.validate"
+# "practice.auth.validate"
 # ]

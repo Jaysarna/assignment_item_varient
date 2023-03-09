@@ -1,0 +1,146 @@
+[
+ {
+  "attribute_name": "Width",
+  "docstatus": 0,
+  "doctype": "Item Attribute",
+  "from_range": 0.0,
+  "increment": 0.0,
+  "item_attribute_values": [
+   {
+    "abbr": "100",
+    "attribute_value": "100",
+    "parent": "Width",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "200",
+    "attribute_value": "200",
+    "parent": "Width",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "300",
+    "attribute_value": "300",
+    "parent": "Width",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "400",
+    "attribute_value": "400",
+    "parent": "Width",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "500",
+    "attribute_value": "500",
+    "parent": "Width",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   }
+  ],
+  "modified": "2023-03-06 22:53:08.935902",
+  "name": "Width",
+  "numeric_values": 0,
+  "to_range": 0.0
+ },
+ {
+  "attribute_name": "Height",
+  "docstatus": 0,
+  "doctype": "Item Attribute",
+  "from_range": 0.0,
+  "increment": 0.0,
+  "item_attribute_values": [
+   {
+    "abbr": "150",
+    "attribute_value": "150",
+    "parent": "Height",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "175",
+    "attribute_value": "175",
+    "parent": "Height",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "200",
+    "attribute_value": "200",
+    "parent": "Height",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "225",
+    "attribute_value": "225",
+    "parent": "Height",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "250",
+    "attribute_value": "250",
+    "parent": "Height",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   }
+  ],
+  "modified": "2023-03-07 08:54:06.576940",
+  "name": "Height",
+  "numeric_values": 0,
+  "to_range": 0.0
+ },
+ {
+  "attribute_name": "Yield",
+  "docstatus": 0,
+  "doctype": "Item Attribute",
+  "from_range": 0.0,
+  "increment": 0.0,
+  "item_attribute_values": [
+   {
+    "abbr": "0.5",
+    "attribute_value": "0.5",
+    "parent": "Yield",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "0.6",
+    "attribute_value": "0.6",
+    "parent": "Yield",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "0.7",
+    "attribute_value": "0.7",
+    "parent": "Yield",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "0.8",
+    "attribute_value": "0.8",
+    "parent": "Yield",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   },
+   {
+    "abbr": "0.9",
+    "attribute_value": "0.9",
+    "parent": "Yield",
+    "parentfield": "item_attribute_values",
+    "parenttype": "Item Attribute"
+   }
+  ],
+  "modified": "2023-03-07 08:55:19.135706",
+  "name": "Yield",
+  "numeric_values": 0,
+  "to_range": 0.0
+ }
+]
